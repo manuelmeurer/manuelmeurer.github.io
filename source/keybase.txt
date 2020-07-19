@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/manuelmeurer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://manuelmeurer.com
+  * I am manuelmeurer (https://keybase.io/manuelmeurer) on keybase.
+  * I have a public key with fingerprint 8253 5CB1 5C09 0D6C 74A3  DFBC A616 76F5 2806 A868
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016bef462678c03508411e9fe988abc832b076251893f95c47cd979c01257b79750a",
+            "fingerprint": "82535cb15c090d6c74a3dfbca61676f52806a868",
+            "host": "keybase.io",
+            "key_id": "a61676f52806a868",
+            "kid": "01014bbbe327995835f07cf3b34ac6d24b9219607490da60d8f1db1eac9dee52d1680a",
+            "uid": "b5a71bc9b4533d425e9b5504284ba819",
+            "username": "manuelmeurer"
+        },
+        "service": {
+            "hostname": "manuelmeurer.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1466549266,
+    "expire_in": 157680000,
+    "prev": "7621716c228bc71fb1286fa5fdce6b632851e9aec1381e9908456ac03cc8dcaf",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMN0AnicbZJ9TFVlHMcvL8pLEkggNSLH4aXIO3Zen3MOL5KaDDU1FUQEuzvPc54D
+J+Dey72XFyGYqajYSiV0UypqiQNyFA1mwNyAQQ6R4WgaSA5FG2EqSQJFIj2X2eqP
+nn+et+/v83vt9nEzeLucW1Ew/drSuiyXvs6z+YZUvdu/hIIWdS8VU0Jl48UN56jY
+7jBl6yoVQ9EMzQCINR6wQJQQzQm0xDMMljUsS5ICkcSxkBYBKzCSzGmygHgRqbIo
+I5phBRGKsijQCmWkNN2ciW1Wm252EKzECpyAICMgWqZVgERe4VQNIgUwQASawEo0
+UCQgEcMsi91pQYKDih1H6xbyRi6mxfD+R/9v3DyEEHOsKMuCxAkaLSKNgxyvIKCy
+PJRZRga0yBP/CqBVSWNUyGAFySrGAqsyQFqMO38RBwVFZCCSIS9wnMqzApahINA8
+K/FQkRjZKbRjm1nJxUSdq5jzcU4uzrdhG1VqpMhPgY6ws7jObJ6pCgsLo/+rjEaW
+XMKx2iwOC7LkEEWWw2G1xzgJjr3WRRMMTc9gJqibVVJTYlGAbXbdYqZiGKJEDt1J
+Z3gABF5mATBSuMiq27BJdyoEkeRFltMPLiBI0jpGZABiWQkikdEgw0pAUwRNRRhA
+wLGSQLqtYMRwEjnIpP0CUMggICSpSNEoZ3p5ZgthE1cOJZMw7XqmWXGQnKjSrs4M
+d4OLt2HpElfnsBm8vfz+GcH0I74LpWsjpl59UGW8HtU/kd7V2YGGB8o/zI8dS9ta
+W+Jl7MkeZ2oXBjaOXAjO4877afPJP91Ji7jlfjVl9HH7hNLQU+caPGJ4knF+cldI
++OTXIaOOibvP76jft9ygnhj45ofHJR6/nfKJCjPPD83Sn8zqFIz0xXd+v31iOAA+
+MlY1tZUUf7G9cjTy9eT1jYGn39lzKSGj2tOvY6cU+/HJp4Fy+KO4axEep+W7oOvi
+lh384Mb7F0f+6J2Wre2rj/fUSdkehx8e/XO37uuqhk4PvZKypDdIeDIT9XCy1b8X
+D6367rND8b7g8styxWR1yWz0/vI1pzwPDY5PRiXNifu3XW7evi/oq6Ss5m+DTv68
+5fDspy392UjzDz/gmd79RsK1Ky/63Pirbex2TGjtynvxHXlaamviTP/C7oqg6taW
+g3M9bErNzVVbg4bbZurDbHHa5+1pfhmbmpqSrHMHZ1I2u27aNvtR0fL+gOSAMQfd
+l11cGbqsJl26EdJdFjuVG1dY+uNznXxVA5ME5NXrw2OWjb3t6OOO3SuzNobdv3Bk
+YcqWcPzAzhH+1ub4m1f92oo3xJ9N/T4wwvhr1a6xvvJ3112vvjQVWbZhRd6DDxqG
+JwLeSl5baWosSg+lF1rOuV95Sat5umYQeCUnfpnYXF9TbTxTQYe2/+Lz/p7k8dJg
+t7qjwWFv1rodO/PegPTCyvm/AaQrwkM=
+=4BLP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/manuelmeurer
+
+==================================================================
