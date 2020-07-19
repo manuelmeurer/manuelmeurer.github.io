@@ -5,7 +5,7 @@ activate :sprockets
 activate :cdn do |cdn|
   cdn.filter      = /\.(html|txt|xml)\z/i
   cdn.cloudflare  = {
-    client_api_key: ENV.fetch('CLOUDFLARE_API_KEY') '',
+    client_api_key: ENV.fetch('CLOUDFLARE_API_KEY'),
     email:          'manuel@krautcomputing.com',
     zone:           'manuelmeurer.com',
     base_urls:      %w(https://manuelmeurer.com')
