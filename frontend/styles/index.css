@@ -1,84 +1,73 @@
-:root {
-  --body-background: #f2f2f2;
-  --body-color: #444;
-  --heading-color: black;
-  --action-color: #d64045;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--body-background);
-  color: var(--body-color);
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    "Helvetica", "Arial", sans-serif;
-  margin: 0 8px;
-  font-size: 108%;
-  line-height: 1.5;
-}
-
-a {
-  color: var(--action-color);
-  text-decoration: underline;
-  text-decoration-color: #ffb088;
+  background-color: #fffff8;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  line-height: 1.5em;
 }
 
 h1 {
-  margin: 1rem 0 3rem;
-  text-align: center;
-  font-weight: 900;
-  font-size: 2.5rem;
-  color: var(--heading-color);
-  line-height: 1.2;
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: -1px;
 }
 
-body > header {
-  margin: 1rem;
-  text-align: center;
+p {
+  margin: 0 0 1.6rem;
 }
 
-body > header img {
-  display: inline-block;
-  width: 400px;
-  max-width: 100%;
+img {
+  border: 1px solid #eee;
+  border-radius: 3px;
 }
 
-body > nav ul {
-  margin: 2rem 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
-body > nav a {
+a {
   text-decoration: none;
 }
 
-main {
-  margin: 2rem auto 4rem;
-  max-width: 65rem;
-  min-height: calc(100vh - 200px);
-  padding: 25px 25px 50px;
-  background: white;
-  box-shadow: 2px 3px 3px #ddd;
-  border-radius: 3px;
+a:active,
+a:active:hover,
+a:active:focus,
+a:focus,
+a:hover {
+  text-decoration: dotted;
+}
 
-  @media (max-width: 500px) {
-    padding: 16px 16px 50px;
+@media (max-width: 767px) {
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  h1 {
+    order: -1;
+    margin: 2rem 0;
+  }
+
+  img {
+    margin-bottom: 1.6rem;
+    object-fit: contain;
   }
 }
 
-footer {
-  text-align: center;
-  margin-bottom: 4rem;
-  font-size: 1em;
-}
+@media (min-width: 768px) {
 
-hr {
-  border: none;
-  border-top: 2px dotted #bbb;
-  margin: 3rem 0;
+  main {
+    max-width: 1000px;
+    margin: 150px auto 0;
+  }
+
+  h1 {
+    margin: 0 0 3rem;
+  }
+
+  img {
+    float: right;
+    margin: 0 0 20px 20px;
+  }
 }
