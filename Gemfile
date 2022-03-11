@@ -1,12 +1,16 @@
 source 'https://rubygems.org'
 
-ruby '2.7.1'
+ruby File.read(".ruby-version").strip
 
 # Return early if this file is parsed by the Bundler plugin DSL.
 # This won't let us access dependencies in common-gems.
-return if self.is_a?(Bundler::Plugin::DSL)
+return if is_a?(Bundler::Plugin::DSL)
 
-gem 'middleman', '~> 4.3'
+gem "bridgetown", "~> 1.0"
 
-# Load common gems
-eval_gemfile 'common-gems/middleman/Gemfile'
+# Uncomment to add file-based dynamic routing to your project:
+# gem "bridgetown-routes", "~> 1.0.0", group: :bridgetown_plugins
+
+group :development do
+  gem "puma", "~> 5.6"
+end
