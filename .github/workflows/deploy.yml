@@ -2,7 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -11,7 +12,24 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
 
-      - name: Deploy to GitHub Pages
-        uses: andrewmcodes/bridgetown-gh-pages-action@v0.0.3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          cache: yarn
+
+      - name: Install JS packages
+        run: yarn install --immutable
+
+      - name: Build
+        run: bin/bridgetown deploy
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
