@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>404 | Manuel Meurer - Web developer and entrepreneur based in Berlin, Germany.</title>
+
+<meta name="description" content="Manuel Meurer is a web developer and entrepreneur based in Berlin, Germany. He is the founder of Uplink, a network of IT freelancers in Germany." />
+
+<link rel="stylesheet" href="/_bridgetown/static/index.IRZHUSIE.css" />
+<script src="/_bridgetown/static/index.CIWQEK2N.js" defer></script>
+<script type="module">let lastmod = 0
+function startReloadConnection() {
+  const evtSource = new EventSource("/_bridgetown/live_reload")
+  evtSource.onmessage = event => {
+    if (event.data == "reloaded!") {
+      location.reload()
+    } else {
+      const newmod = Number(event.data)
+      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
+        location.reload()
+      } else {
+        lastmod = newmod
+      }
+    }
+  }
+  evtSource.onerror = event => {
+    if (evtSource.readyState === 2) {
+      // reconnect with new object
+      evtSource.close()
+      console.warn("Live reload: attempting to reconnect in 3 seconds...")
+
+      setTimeout(() => startReloadConnection(), 3000)
+    }
+  }
+}
+setTimeout(() => {
+  startReloadConnection()
+}, 500)
+</script>
+
+  </head>
+  <body class="default ">
+    <main>
+      <h1>404</h1>
+
+<p><strong>Page not found :(</strong></p>
+<p>The requested page could not be found.</p>
+
+    </main>
+  </body>
+</html>
