@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../frontend/styles/frontend/styles/index.css"],
+  "sourcesContent": ["@font-face {\n  font-family: \"CormorantGaramond\";\n  src: url(\"/fonts/CormorantGaramond-Medium.ttf\") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #fffff8;\n  font-family: \"CormorantGaramond\", serif;\n  font-size: 26px;\n  line-height: 1.5em;\n}\n\nh1 {\n  font-size: 48px;\n  font-weight: normal;\n  letter-spacing: -1px;\n}\n\np {\n  margin: 0 0 1.6rem;\n}\n\nimg {\n  border: 1px solid #eee;\n  border-radius: 3px;\n}\n\na {\n  text-decoration: none;\n}\n\na:active,\na:active:hover,\na:active:focus,\na:focus,\na:hover {\n  text-decoration: dotted;\n}\n\n@media (max-width: 767px) {\n\n  main {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n  }\n\n  h1 {\n    order: -1;\n    margin: 2rem 0;\n  }\n\n  img {\n    margin-bottom: 1.6rem;\n    object-fit: contain;\n  }\n}\n\n@media (min-width: 768px) {\n\n  main {\n    max-width: 1000px;\n    margin: 150px auto 0;\n  }\n\n  h1 {\n    margin: 0 0 3rem;\n  }\n\n  img {\n    float: right;\n    margin: 0 0 20px 20px;\n  }\n}\n"],
+  "mappings": "AAAA,WACE,8BACA,gEACA,gBACA,kBAGF,EACE,sBAGF,KACE,yBACA,oCACA,eACA,kBAGF,GACE,eACA,gBACA,oBAGF,EAxBA,kBA4BA,IACE,sBA7BF,kBAiCA,EACE,qBAGF,uDAKE,+BAAA,uBAGF,0BAEE,KACE,aACA,sBACA,uBAGF,GACE,SAtDJ,cA0DE,IACE,qBACA,sBAAA,oBAIJ,0BAEE,KACE,iBAnEJ,oBAuEE,GAvEF,gBA2EE,IACE,YA5EJ",
+  "names": []
+}
