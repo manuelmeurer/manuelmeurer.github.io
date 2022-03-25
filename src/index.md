@@ -6,7 +6,7 @@ layout: default
 
 # Hi there!
 
-My name is Manuel Meurer and I am a web developer and entrepreneur based in Berlin, Germany. Since 2016 I've been working exclusively on **[Uplink](https://uplink.tech/)**, a network for IT freelancers in Germany.
+My name is Manuel Meurer and I am a web developer and entrepreneur based in Berlin, Germany. Since 2016, I have been working exclusively on **[Uplink](https://uplink.tech/)**, a network for IT freelancers in Germany.
 
 I'm originally from Dortmund, where I studied IT with short stints in the USA and Sweden. After my studies I lived in Stockholm for a while before moving to Berlin in 2008. Here I worked as a freelance developer for many of the city's startups, agencies, and corporates.
 
