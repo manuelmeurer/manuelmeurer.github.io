@@ -19,3 +19,5 @@ If you want to get in touch, try [email](mailto:manuel@meurer.io) or one of thes
 [GitHub](https://github.com/manuelmeurer)
 \~
 [Twitter](https://twitter.com/manume)
+\~
+[Mastodon](https://ruby.social/@manuel){:rel="me"}
