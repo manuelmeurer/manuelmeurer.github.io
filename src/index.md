@@ -12,8 +12,6 @@ I'm originally from Dortmund, where I studied IT with short stints in the USA an
 
 If you want to get in touch, try [email](mailto:manuel@meurer.io) or one of these:
 
-[XING](https://www.xing.com/profile/Manuel_Meurer)
-\~
 [LinkedIn](https://www.linkedin.com/in/manuelmeurer)
 \~
 [GitHub](https://github.com/manuelmeurer)
